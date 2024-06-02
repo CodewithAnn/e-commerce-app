@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class EColors{
+class Gradients{
     // App theme colors
   static const Color primary = Color(0xFF004080);
   static const Color secondary = Color(0xFF6B73FF);
@@ -11,6 +11,18 @@ class EColors{
   static const Color textSecondary = Color(0xFF6C757D);
   static const Color textWhite = Colors.white;
 
+    //Gradients
+    static const Gradient linerGradient = LinearGradient(colors: [
+      Color(0xFFF6D0EA), // Stop: 0%
+      Color(0xFFE5A2E5),// Stop: 33%
+      Color(0xFF9374DE), // Stop: 67%
+      Color(0xFF070AA6), // Stop: 100%
+    ],begin: Alignment(0.0, 0.0),
+    end: Alignment(0.707, -0.707),
+    stops: [
+      0.0, 0.33, 0.67, 1.0
+    ]
+    );
   // Background colors
   static const Color light = Color(0xFFF6F6F6);
   static const Color dark = Color(0xFF272727);
@@ -18,7 +30,7 @@ class EColors{
 
   // Background Container colors
   static const Color lightContainer = Color(0xFFF6F6F6);
-  static Color darkContainer = EColors.white.withOpacity(0.1);
+  static Color darkContainer = Gradients.white.withOpacity(0.1);
 
   // Button colors
   static const Color buttonPrimary =  Color(0xFF004080);
