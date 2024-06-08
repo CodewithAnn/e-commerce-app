@@ -17,6 +17,13 @@ dependencies:
   cupertino_icons: ^1.0.6
       #---------------StateManagement------------
   flutter_riverpod: ^2.5.1
+  url_launcher: ^6.2.6
+  # flutter_native_splash: ^2.4.0
+  http: ^1.2.1
+  # intl: ^0.19
+  
+  intl: ^0.19.0
+  flutter_native_splash: ^2.4.0
 
 #..............................Dev Packages....................
 dev_dependencies:
@@ -35,8 +42,11 @@ flutter:
   uses-material-design: true
 
 #....................... Assets...............
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/logos/
+    
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
