@@ -35,5 +35,7 @@ class EAppTheme {
       checkboxTheme: ECheckBoxTheme.darkCheckBoxTheme,
       chipTheme: EChipTheme.darkChipTheme,
       outlinedButtonTheme: EOutlinedButtonTheme.darkOutlinedButttonTheme,
-      elevatedButtonTheme: EElevatedButtonTheme.darkElevatedButton);
+      elevatedButtonTheme: EElevatedButtonTheme.darkElevatedButton,
+      // inputDecorationTheme: 
+      );
 }
